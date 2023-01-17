@@ -7,10 +7,35 @@
   .list {
       list-style: none;
        }
+:root{
+    primary-brand: #4D5AE5;
+    dark: #2E2F42;
+    success: #31D0AA;
+    text: #434455;
+    subtle-text: #8E8F99;
+    accent: #E7E9FC;
+    light: #F4F4FD;
 
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 body{
     font-family: 'Roboto', sans-serif;
-    font-style: normal
+    background-color: #FFFFFF;
+    color: #434455;
+
 }
 /* logo */
  .logo-web {
@@ -35,7 +60,7 @@ body{
             text-transform: uppercase;
     color: #2E2F42;
 }
-.logo-dark:hover
+.logo-dark:hover,
 .logo-dark:focus{
     color: #4D5AE5;
 }
@@ -50,7 +75,7 @@ body{
             text-transform: uppercase;
     color: #F4F4FD;
 }
-.logo-light:hover
+.logo-light:hover,
 .logo-light:focus{
     color: #4D5AE5;
 }
@@ -76,42 +101,44 @@ body{
 
 
  .menu-link {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: #2E2F42;}
 
-.menu-link:hover
+.menu-link:hover,
 .menu-link:focus { 
 
-    color: #434455;}
- .menu-link:active{ 
+    color: #4D5AE5;}
+ 
 
     
-        color: #4D5AE5;
-}    
 /* < !--Contact--> */
-.contact {
- font-weight: 400;
+.contact-link {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-    color: #434455;
+     color: #434455; 
+  
 }
 
-.contact:hover
-.contact:focus {
+.contact-link:hover,
+.contact-link:focus {
 
-  color: #4D5AE5;}
+  color: #4D5AE5;} 
+
 
 
 .contact-phone-number {}
 .contact-mail{}
 
 /* < !--Section--> */
+.hero{
+    background-color: #2E2F42;
+}
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -124,7 +151,7 @@ body{
 
 
     .hero-btn{
-        font-weight: 600;
+        font-weight: 500;
             font-size: 16px;
             line-height: 1.2;
             display: flex;
@@ -136,15 +163,15 @@ body{
         align-items: flex-start;
         padding: 16px 32px;
         gap: 10px;
-        background: #4D5AE5;
+        background-color: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;}
-    .hero-btn:hover
+    .hero-btn:hover,
     .hero-btn:focus{
-        background: #4D5AE5;
+        background-color: #4D5AE5;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
     .hero-btn:active{
-        background: #404BBF;
+        background-color: #404BBF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
          /* < !--Section1--> */
 
@@ -169,9 +196,11 @@ body{
         
                  .task-img {}
         
-                 .team {}
+                 .team {
+                    background-color: #F4F4FD;
+                 }
         
-                 .our-team {
+                 .section-title {
                     font-weight: 700;
                     font-size: 36px;
                     line-height: 1.1;
@@ -199,14 +228,28 @@ body{
                     letter-spacing: 0.02em;
                     color: #434455;}
         
-                 .footer-text {font-weight: 400;
+                 .footer-text {
+                    font-weight: 400;
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     color: #E7E9FC; }
+                    .footer-background {
+                        background-color:  #2E2F42}
 
-                
-                 .button-iten {}
+                .button-list{
+                    color: #4D5AE5;
+                    background-color: #F4F4FD;
+                    
+                    border: 1px solid #E7E9FC;
+                    border-radius: 4px;
+                }
+
+                .button-portfolio:hover,
+                .button-portfolio:focus {
+                     background-color: #404BBF;
+                     color: #FFFFFF;
+                }
                 
                  .works {}
                 
