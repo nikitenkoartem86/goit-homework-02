@@ -123,6 +123,8 @@ padding-bottom: 24px;
  .container-navigation{
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E7E9FC;
 
 
  }
@@ -294,12 +296,14 @@ padding-bottom: 24px;
                     background-color:var(--light);
                  }
                  .team-wrapper{
-                    background-color: #fff;
-                
+                    background-color:var(--white-text-color);
                      padding-top: 32px; 
                       padding-bottom: 32px; 
                       margin-bottom: 40px; 
-                    border: none 
+                    border: none;
+                    
+
+                
                  }
         
                  .section-title {
@@ -415,12 +419,14 @@ padding-bottom: 24px;
                 .works-img {}
 
                  .works-name {
+                    
                     font-weight: 500;
                     font-size: 20px;
                     line-height: 1.2;
                 
                     letter-spacing: 0.02em;
                     color:var(--dark);}
+                                      
                 
                 .works-product {
                     font-weight: 400;
